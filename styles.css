@@ -1,0 +1,109 @@
+
+/* General page settings */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f6fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation menu */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    padding: 8px;
+}
+
+nav a:hover {
+    background-color: #3949ab;
+    border-radius: 5px;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+/* Portfolio sections */
+.section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #dddddd;
+}
+
+.section h2 {
+    color: #283593;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+/* Profile photo */
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* CV download button */
+.cv-button {
+    display: inline-block;
+    background-color: #283593;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+
+.cv-button:hover {
+    background-color: #3949ab;
+}
+
+/* Footer */
+footer {
+    background-color: #283593;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+    header {
+        padding: 25px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+}
