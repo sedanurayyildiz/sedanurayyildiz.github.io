@@ -5,162 +5,376 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+    <meta name="theme-color" content="#080d1b">
+    <meta name="description"
+          content="Sedanur Ayyıldız - Management Information Systems student portfolio.">
+    <title>Sedanur Ayyıldız | Portfolio</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header id="home">
-        <h1>My Personal Portfolio</h1>
-        <p>Management Information Systems Student</p>
+    <div class="background-glow"></div>
 
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#cv">Download CV</a>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#home">
+                SA<span>.</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <a class="nav-cv"
+               href="my-cv.pdf"
+               download>
+                Download CV ↓
+            </a>
         </nav>
     </header>
 
     <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">
+                    WELCOME TO MY PORTFOLIO
+                </span>
+
+                <h1>
+                    Hi, I'm <br>
+                    <span class="gradient-text">
+                        Sedanur Ayyıldız.
+                    </span>
+                </h1>
+
+                <h2>
+                    Management Information Systems Student
+                </h2>
+
+                <p>
+                    Exploring the intersection of
+                    technology, business, and innovation.
+                    Passionate about data analytics,
+                    ERP systems, and IT project management.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Projects ↗
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-tags">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Power BI</span>
+                    <span>ERP</span>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="photo-glow"></div>
+                <div class="photo-frame">
+                    <img src="images/profilee.jpeg"
+                         alt="Sedanur Ayyıldız"
+                         class="hero-photo">
+                </div>
+                <div class="floating-label">
+                    ✦ Technology & Innovation
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
         <section id="about" class="section">
-            <h2>About Me</h2>
-            <img src="images/profilee.jpeg"
-                 alt="My profile photo"
-                 class="profile-photo">
+            <div class="section-heading">
+                <span class="section-number">01 / ABOUT</span>
+                <h2>About <span>Me.</span></h2>
+            </div>
 
-            <p>
-                
+            <div class="glass-card about-card">
+                <p>Hi, I'm Sedanur! 👋</p>
 
-Hi, I'm Sedanur! 👋 <br>
+                <p>
+                    I'm a Management Information Systems
+                    student at İzmir Bakırçay University
+                    who is passionate about technology,
+                    learning new things, and exploring
+                    new ideas.
+                </p>
 
-I'm a Management Information Systems student at İzmir Bakırçay University who is passionate about technology, learning new things, and exploring new ideas.
+                <p>
+                    I've always been a curious person who
+                    enjoys asking questions, discovering
+                    how things work, and finding creative
+                    solutions to problems. I love taking
+                    on new challenges and seeing them as
+                    opportunities to learn and grow.
+                </p>
 
-I've always been a curious person who enjoys asking questions, discovering how things work, and finding creative solutions to problems. I love taking on new challenges and seeing them as opportunities to learn and grow.
+                <p>
+                    Along with my interest in technology,
+                    I enjoy connecting with people,
+                    sharing ideas, and working with others.
+                    I believe that good communication and
+                    teamwork are just as important as
+                    technical skills when it comes to
+                    solving real-world problems.
+                </p>
 
-Along with my interest in technology, I enjoy connecting with people, sharing ideas, and working with others. I believe that good communication and teamwork are just as important as technical skills when it comes to solving real-world problems.
+                <p>
+                    I'm particularly interested in data
+                    analytics, ERP systems, and IT project
+                    management, where I hope to combine
+                    my curiosity, problem-solving mindset,
+                    and communication skills to create
+                    meaningful solutions.
+                </p>
 
-I'm particularly interested in data analytics, ERP systems, and IT project management, where I hope to combine my curiosity, problem-solving mindset, and communication skills to create meaningful solutions.
-
-I'm excited to keep learning, take on new experiences, and see where this journey takes me!
-            </p>
+                <p>
+                    I'm excited to keep learning, take on
+                    new experiences, and see where this
+                    journey takes me!
+                </p>
+            </div>
         </section>
 
-       
-<section id="education" class="section">
-    <h2>Education</h2>
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <div class="section-heading">
+                <span class="section-number">02 / EDUCATION</span>
+                <h2>My <span>Education.</span></h2>
+            </div>
 
-    <h3>İzmir Bakırçay University</h3>
+            <div class="glass-card education-card">
+                <div class="education-icon">🎓</div>
 
+                <div>
+                    <span class="small-label">
+                        CURRENTLY STUDYING
+                    </span>
 
-    <p>English-Taught Program | Currently Studying</p>
+                    <h3>İzmir Bakırçay University</h3>
 
-    <p>
-        My studies focus on combining business
-        knowledge with information technology,
-        including data analytics, programming,
-        database management, and information systems.
-    </p>
-</section>
+                    <p class="education-program">
+                        Management Information Systems
+                    </p>
 
+                    <p>English-Taught Program</p>
 
-       
+                    <p>
+                        My studies focus on combining
+                        business knowledge with information
+                        technology, including data analytics,
+                        programming, database management,
+                        and information systems.
+                    </p>
+                </div>
+            </div>
+        </section>
 
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-heading">
+                <span class="section-number">03 / SKILLS</span>
+                <h2>Technical <span>Skills.</span></h2>
+            </div>
 
-<section id="skills" class="section">
-    <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">⌘</div>
+                    <h3>Project Management</h3>
+                    <p>IT Project Management</p>
+                </div>
 
-    <h3>Project Management</h3>
-    <p>IT Project Management</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">⌨</div>
+                    <h3>Programming Languages</h3>
+                    <p>Python · C++ · C#</p>
+                </div>
 
-    <h3>Programming Languages</h3>
-    <p>Python, C++, C#</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">▤</div>
+                    <h3>Database Management</h3>
+                    <p>SQL</p>
+                </div>
 
-    <h3>Database Management</h3>
-    <p>SQL</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">◈</div>
+                    <h3>Data Analytics</h3>
+                    <p>Power BI</p>
+                </div>
 
-    <h3>Data Analytics & Visualization</h3>
-    <p>Power BI</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">⌁</div>
+                    <h3>Web Development</h3>
+                    <p>HTML · CSS</p>
+                </div>
 
-    <h3>Web Development</h3>
-    <p>HTML, CSS</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">✧</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma</p>
+                </div>
 
-    <h3>UI/UX Design</h3>
-    <p>Figma</p>
+                <div class="glass-card skill-card">
+                    <div class="skill-icon">▦</div>
+                    <h3>ERP Systems</h3>
+                    <p>CANIAS ERP</p>
+                </div>
+            </div>
+        </section>
 
-    <h3>ERP Systems</h3>
-    <p>CANIAS ERP</p>
-</section>
-
-
-
-
+        <!-- PROJECTS -->
         <section id="projects" class="section">
-            <h2>Projects</h2>
+            <div class="section-heading">
+                <span class="section-number">04 / PROJECTS</span>
+                <h2>Featured <span>Projects.</span></h2>
+            </div>
 
-            <h3>ERP Project</h3>
-            <p>
-                An academic project exploring
-                business processes and ERP systems.
-            </p>
+            <div class="projects-grid">
+                <article class="glass-card project-card">
+                    <div class="project-visual">
+                        <span>01</span>
+                        <div class="project-symbol">▦</div>
+                    </div>
 
-            <h3>Data Analysis Project</h3>
-            <p>
-                An academic project involving
-                data analysis and visualization.
-            </p>
+                    <div class="project-body">
+                        <span class="small-label">
+                            ERP SYSTEMS
+                        </span>
+
+                        <h3>ERP Project</h3>
+
+                        <p>
+                            An academic project exploring
+                            business processes and ERP
+                            systems.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>ERP</span>
+                            <span>Business Processes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="glass-card project-card">
+                    <div class="project-visual project-visual-alt">
+                        <span>02</span>
+                        <div class="project-symbol">◈</div>
+                    </div>
+
+                    <div class="project-body">
+                        <span class="small-label">
+                            DATA ANALYTICS
+                        </span>
+
+                        <h3>Data Analysis Project</h3>
+
+                        <p>
+                            An academic project involving
+                            data analysis and visualization.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Data Analysis</span>
+                            <span>Visualization</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
 
-       
+        
+<!-- CONTACT -->
 <section id="contact" class="section">
-    <h2>Contact Me</h2>
+    <div class="section-heading">
+        <span class="section-number">05 / CONTACT</span>
+        <h2>Let's <span>Connect.</span></h2>
+    </div>
 
-    <p>
-        Feel free to reach out! I'm always open
-        to connecting, sharing ideas, and
-        exploring new opportunities.
-    </p>
+    <div class="glass-card contact-card">
+        <h3>Have an idea or opportunity?</h3>
 
-    <p>
-        <strong>Email:</strong>
-        <a href="mailto:seedaayldz@gmail.com">
-            seedaayldz@gmail.com
-        </a>
-    </p>
+        <p>
+            Feel free to reach out! I'm always open
+            to connecting, sharing ideas, and
+            exploring new opportunities.
+        </p>
 
-    <p>
-        <strong>LinkedIn:</strong>
-        <a href="https://www.linkedin.com/in/seda-ayy%C4%B1ld%C4%B1z-50786b443/"
-           target="_blank" rel="noopener noreferrer">
-            My LinkedIn Profile
-        </a>
-    </p>
+        <div class="contact-info">
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:seedaayldz@gmail.com">
+                    seedaayldz@gmail.com
+                </a>
+            </p>
 
-    <p>
-        <strong>GitHub:</strong>
-        <a href="https://github.com/sedanurayyildiz"
-           target="_blank" rel="noopener noreferrer">
-            My GitHub Profile
-        </a>
-    </p>
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/seda-ayy%C4%B1ld%C4%B1z-50786b443/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    My LinkedIn Profile
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/sedanurayyildiz"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    My GitHub Profile
+                </a>
+            </p>
+        </div>
+    </div>
 </section>
 
 
+        <!-- CV -->
         <section id="cv" class="section">
-            <h2>Download CV</h2>
-            <p>Download my resume in PDF format.</p>
-            <a href="my-cv.pdf"
-               download
-               class="cv-button">
-                Download My CV (PDF)
-            </a>
+            <div class="glass-card cv-card">
+                <div>
+                    <span class="small-label">
+                        MY RESUME
+                    </span>
+                    <h2>Want to know more?</h2>
+                    <p>
+                        Download my resume in PDF format.
+                    </p>
+                </div>
+
+                <a href="my-cv.pdf"
+                   download
+                   class="btn btn-primary">
+                    Download My CV ↓
+                </a>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>My Personal Portfolio | 2026</p>
+        <p>© 2026 Sedanur Ayyıldız. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
     </footer>
 </body>
 </html>
